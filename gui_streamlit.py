@@ -19,7 +19,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # === MQTT CONFIG ===
-MQTT_BROKER = os.getenv("MQTT_BROKER", "192.168.1.228")
+MQTT_BROKER = os.getenv("MQTT_BROKER", "50.125.1.122")
 MQTT_PORT   = int(os.getenv("MQTT_PORT",   8081))
 CMD_TOPIC   = "teensy/command"
 LOG_TOPIC   = "teensy/log"
