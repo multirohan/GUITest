@@ -5,3 +5,4 @@ certifi==2025.7.14
 packaging==25.0
 setuptools-scm==8.3.1
 wrapt==1.17.2
+altair==4.2.2
