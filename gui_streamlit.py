@@ -20,7 +20,7 @@ st.markdown("""
 
 # === MQTT CONFIG ===
 MQTT_BROKER = os.getenv("MQTT_BROKER", "192.168.1.228")
-MQTT_PORT   = int(os.getenv("MQTT_PORT",   1883))
+MQTT_PORT   = int(os.getenv("MQTT_PORT",   8081))
 CMD_TOPIC   = "teensy/command"
 LOG_TOPIC   = "teensy/log"
 
