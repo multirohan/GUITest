@@ -1,10 +1,9 @@
+altair==4.2.2
 streamlit==1.17.0
 paho-mqtt==2.1.0
 pyserial==3.5
+standard-imghdr==3.13.0
 certifi==2025.7.14
 packaging==25.0
 setuptools-scm==8.3.1
 wrapt==1.17.2
-
-# Add this backport so `import imghdr` works under Python 3.13+
-standard-imghdr==3.13.0
